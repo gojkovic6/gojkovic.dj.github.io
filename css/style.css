@@ -1,0 +1,440 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.cleaner {
+	clear:both;
+}
+body{background-color: #e7e7e7;
+	font-family: 'Titillium Web', sans-serif;
+}
+header{
+	width:100%;
+	background-color: #82bbe8;
+}
+.centering{
+	width: 85%;
+	margin: 0px auto;
+}
+#logo-ime{
+	float: left;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	text-align:center;
+	padding-top:2%;
+	width:15%;
+	font-size:113%;
+}
+#logo-ime h1{
+	color:#000000;
+}
+#logo-ime span{
+	color:#e0d019;
+}
+#logo{
+	width:6%;
+	height:6%;
+	margin:1% auto;
+	float:left;
+}
+#navigacija{
+	float:right;
+	margin:2.5% 0px;
+	width:60%;
+	padding:12px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+}
+#navigacija ul{
+	list-style-type: none;
+	float: right;
+}
+#navigacija ul li{
+padding-right: 40px;
+display: inline;
+font-size:130%;
+}
+#navigacija ul li a{
+	color:#000000;
+}
+#navigacija ul li:last-child{
+	padding-right:0px;
+}
+a{
+	text-decoration:none;
+}
+#navigacija ul li:hover{
+	text-decoration: underline;
+}
+#pocetni-blok{
+	background-image: url(../img/champions-league.jpg);
+	height: 700px;
+	
+}
+.background-image{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: scroll;
+}
+#pocetni-blok h1{
+	color: #e0d019;
+	font-size:426%;
+	top: 92%;
+	left:35%;
+	position: absolute;
+	text-shadow: 1px 1px #000000;
+	font-family: 'Titillium Web', sans-serif;
+}
+#prvi{
+	width:800px;
+	margin:100px auto;
+	text-align: center;
+	display: flex;
+    flex-direction: row;
+	color: #e0d019;
+	
+}
+#prvi article{
+	background-color:#82bbe8 ;
+	width:300px;
+	margin:10px;
+	height: 80px;
+	font-family: 'Titillium Web', sans-serif;
+	border-radius: 10px;
+  
+}
+#prvi p{
+	color:#000000;
+	font-size: 18px;
+}
+#drugi{
+	background-color: #82bbe8;
+}
+.blokovi-pozadina{
+	width: 1200px;
+	height: 630px;
+	display: flex;
+	justify-content:space-between;
+	color: black;
+	margin:100px auto;
+	border-radius: 10px;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+.blokovi-pozadina article h1{
+	text-align: center;
+	font-size: 200%;
+	padding-top: 10px;
+}
+.blokovi-pozadina article p{
+	text-align:center;
+	font-size: 140%;
+	padding: 10px 15px;
+	
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+#wiew-club{
+	font-size: 140%;
+	text-align: center;
+	margin:34%;
+	font-family: 'Titillium Web', sans-serif;
+	color: black ;
+	transition: 0.5s;
+	border-radius: 9px;
+	padding: 1%;
+}
+#wiew-club:hover{
+	background-color: #e7e7e7;
+	
+}
+#About-City{
+	padding-top:30px;
+}
+#treci{
+	background-color: #82bbe8;
+}
+#Silva{
+	padding-top:57px ;
+	padding-left: 15px;
+}
+#Aguero{
+	padding-top:57px ;
+}
+#see-players{
+	font-size: 140%;
+	text-align:center;
+	margin: 37%;
+	font-family: 'Titillium Web', sans-serif;
+	color: black ;
+	transition: 0.5s;
+	border-radius: 9px;
+	padding: 1%;
+	
+}
+#see-players:hover{
+	background-color: #e7e7e7;
+}
+#cetvrti{
+	position: relative;
+}
+#cetvrti article h1{
+	position: absolute;
+	top: 1%;
+	font-size: 400%;
+	left: 32%;
+	font-weight: bold;
+	color: #000034;
+}
+#join-us{
+	position: absolute;
+	top:20%;
+	font-size: 200%;
+	text-decoration: underline;
+	right:44%;
+	color:#000034 ;
+	transition: 0.5s;
+	border-radius: 9px;
+	padding: 1%;
+}
+#join-us:hover{
+	background-color: #e7e7e7;
+}
+footer{
+ background-color:black ;
+}
+.container{
+	display: flex;
+	justify-content:space-around;
+	padding: 30px 0px 30px 0px;
+}
+.lista{
+	color:white;
+	padding:1% 3%;
+	font-family: 'Titillium Web', sans-serif;
+}	
+#condition1{
+	padding-right: 5%;
+	font-size: 120%;
+	border-right: 2px solid #ffffff;
+}
+.lista ul{
+	list-style-type: none;
+}
+.lista ul li:first-child{
+	margin-top: 30px;
+}
+.lista ul li{
+	margin:20px auto;
+}
+#condition1 ul li i{
+	margin-right: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#logo2{
+	width:120%;
+	height:90%;
+	margin:1% 50%;
+}
+#conidion3{
+	border-left: 2px solid white;
+	padding-left: 5%;
+	font-size: 120%;
+}
+#conidion3 ul li i{
+	margin-left:10px;
+}
+.nazivi{
+	padding-top: 30px;
+}
+hr{
+	border:1px solid;
+}
+#pocetna-slika{
+	width: 100%;
+	margin:50px auto;
+}
+#pocetna-slika img{
+	width: 100%;
+	border-radius: 7px;
+	
+}
+.dva-bloka{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+}
+.textbox{
+	background-color: #82bbe8;
+	width: 400px;
+	height:400px;
+	border-radius:7px;
+	padding: 1%;
+}
+.textbox p{
+	font-size: 145%;
+	text-align: center;
+	padding: 10px 15px;
+	margin-top: 30px;
+	word-spacing: 2px;
+}
+.slika-efekat figcaption{
+	text-align: center;
+	font-size: 20px;
+	background-color: #e7e7e7;
+}
+.slika-efekat img{
+	border-radius: 7px;
+	width: 100%;
+	display: block;
+}
+.slika-efekat{
+	margin: 0 10px;
+	transition: all 1s;
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+	
+}
+.slika-efekat:hover{
+	transform:scale(1.1);
+}
+.player-drzac{
+	display: flex;
+	align-items: start;
+}
+.player-slika figcaption{
+	text-align: center;
+	font-size: 20px;
+	background-color: #e7e7e7;
+	margin-top:-60px;
+}
+.player-slika img{
+	width: 100%;
+	display: block;
+}
+.player-slika{
+	margin: 0 10px;
+	transition: all 1s;
+	
+	
+}
+.player-slika:hover{
+	transform:scale(1.1);
+}
+#A-title{
+	text-align: center;
+	margin: 40px auto;
+	position: relative;
+	animation-name: animacija1;
+	animation-duration: 1s;
+}
+@keyframes animacija1 {
+	from{top: -400px}
+	to{top: 0px;}
+}
+#author{
+	background-color:#1e3d75;
+	color: white;
+	display: flex;
+	justify-content:flex-start ;
+	border-radius : 7px ;
+	height:400px;
+	margin: 50px auto;
+	position:relative;
+	animation-name:animacija2;
+	animation-duration:1.5s;
+}
+@keyframes animacija2 {
+	from{bottom:-700px}
+	to{bottom: 0px;}
+}
+#author article p{
+	text-align: justify;
+	margin:70px 30px;
+	font-size: 140%;
+	word-spacing: 3px;
+}
+#login{
+	margin:70px auto;
+}
+#login h1{
+	text-align: center;
+	position: relative;
+	font-size: 280%;
+	animation-name: animacija1;
+	animation-duration: 1s;
+}
+form{
+	position: relative;
+	background-color: #1e3d75;
+	border-radius: 7px;
+	height: 400px;
+	color: white;
+	margin: 50px auto;
+	animation-name:animacija2;
+	animation-duration:1.5s;
+}
+#form-drzac{
+	width: 100%;
+}
+#form-drzac1{
+	float: left;
+}
+.form-drzac0{
+	text-align: center;
+	margin-top: 3%;
+	width: 50%;
+}
+label{
+	font-size:200% ;
+}
+input{
+	width: 50%;
+	height: 40px;
+	padding-left: 2%;
+	margin-top: 20px;
+}
+#form-drzac2{
+	float: right;
+}
+#form-drzac3{
+	text-align: center;
+	width: 40%;
+	position: absolute;
+	bottom: 4%;
+	left:30%;
+}
+#contact{
+	display: flex;
+	justify-content: flex-start;
+	background-color: #1e3d75;
+	margin: 50px auto;
+	height: 400px;
+	color: white;
+	position: relative;
+	animation-name:animacija2;
+	animation-duration:1.5s;
+}
+iframe{
+	width: 600px;
+	height: 400px;
+}
+#contact article p{
+	text-align: center;
+	font-size: 130%;
+	margin: 20px auto;
+}
+#contact article h2{
+	text-align: center;
+	margin: 25px 70px;
+	font-size: 200%;
+}
+
+
+
+
